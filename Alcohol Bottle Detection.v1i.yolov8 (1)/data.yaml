@@ -1,0 +1,14 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names:
+  - Alcohol-Bottle-Detection
+
+roboflow:
+  workspace: yash-joshi-patbk
+  project: alcohol-bottle-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yash-joshi-patbk/alcohol-bottle-detection/dataset/1
